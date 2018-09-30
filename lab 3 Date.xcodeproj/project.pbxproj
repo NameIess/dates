@@ -15,6 +15,7 @@
 		322FD2442160DB4E00AEC3B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FD2432160DB4E00AEC3B3 /* main.m */; };
 		322FD24E2160DB4E00AEC3B3 /* lab_3_DateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FD24D2160DB4E00AEC3B3 /* lab_3_DateTests.m */; };
 		322FD2592160DB4E00AEC3B3 /* lab_3_DateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FD2582160DB4E00AEC3B3 /* lab_3_DateUITests.m */; };
+		322FD2682160DB9600AEC3B3 /* CountAge.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FD2672160DB9600AEC3B3 /* CountAge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		322FD2542160DB4E00AEC3B3 /* lab 3 DateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lab 3 DateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		322FD2582160DB4E00AEC3B3 /* lab_3_DateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lab_3_DateUITests.m; sourceTree = "<group>"; };
 		322FD25A2160DB4E00AEC3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322FD2662160DB7900AEC3B3 /* NSObject+CountAge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CountAge.h"; sourceTree = "<group>"; };
+		322FD2672160DB9600AEC3B3 /* CountAge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountAge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				322FD23F2160DB4E00AEC3B3 /* LaunchScreen.storyboard */,
 				322FD2422160DB4E00AEC3B3 /* Info.plist */,
 				322FD2432160DB4E00AEC3B3 /* main.m */,
+				322FD2662160DB7900AEC3B3 /* NSObject+CountAge.h */,
+				322FD2672160DB9600AEC3B3 /* CountAge.m */,
 			);
 			path = "lab 3 Date";
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				322FD2392160DB4E00AEC3B3 /* ViewController.m in Sources */,
 				322FD2442160DB4E00AEC3B3 /* main.m in Sources */,
 				322FD2362160DB4E00AEC3B3 /* AppDelegate.m in Sources */,
+				322FD2682160DB9600AEC3B3 /* CountAge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

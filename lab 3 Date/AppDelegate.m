@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+CountAge.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CountAge* counter = [[CountAge alloc] init];
+    NSDateComponents* myAge = [counter countAge:1998 month:10 day:7];
+    [counter printInfo:myAge];
+    
+
     return YES;
 }
 
